@@ -423,10 +423,11 @@ public class UserAnalyser {
 
 			UserAnalyser mtimeUserAnalyser = new UserAnalyser(hdfsFileOperator);
 			try {
-				mtimeUserAnalyser.areaMapReduce(hdfsArgsPath, mid);
-				mtimeUserAnalyser.sexMapReduce(hdfsArgsPath, mid);
-				mtimeUserAnalyser.ageMapReduce(hdfsArgsPath, mid);
-				mtimeUserAnalyser.jobMapReduce(hdfsArgsPath, mid);
+//				mtimeUserAnalyser.areaMapReduce(hdfsArgsPath, mid);
+//				mtimeUserAnalyser.sexMapReduce(hdfsArgsPath, mid);
+//				mtimeUserAnalyser.ageMapReduce(hdfsArgsPath, mid);
+				mtimeUserAnalyser.educationMapReduce(hdfsArgsPath, mid);
+//				mtimeUserAnalyser.jobMapReduce(hdfsArgsPath, mid);
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
